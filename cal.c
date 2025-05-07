@@ -17,7 +17,7 @@ int main() {
 	scanf("%d", &n);
 	for (i = 1; i <= n;)
 	{
-		printf("Enter credit amount for your %d subject: ",i);
+		printf("\nEnter credit amount for your %d subject: ",i);
 		scanf("%d", &c);
 		if(4>= c && c>=0){
 			printf("Enter the grade you got for that subject: ");
@@ -107,7 +107,7 @@ int main() {
 	{
 		x += gp[i];
 	}
-	printf("You have total %d credits and %.2f credit points\n", y, x);
+	printf("\n\nYou have total %d credits and %.2f credit points\n", y, x);
 	printf("Your Grade point average(G.P.A) is: %.2f",calc(x, y));
     return 0;
 }
